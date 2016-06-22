@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:stretchColumns="1" >
+
+    <ImageView
+        android:id="@+id/ivStu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+        android:gravity="center_vertical"
+        android:src="@drawable/a1" />
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="姓名:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/stuName"
+            android:layout_height="wrap_content"
+            android:text="木婉清"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="学号:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/stuId"
+            android:layout_height="wrap_content"
+            android:text="01"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="未到次数:"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/stuLateCount"
+            android:layout_height="wrap_content"
+            android:text="0"
+            android:textSize="30sp" />
+    </TableRow>
+
+    <RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">"
+	    <Button
+	        android:id="@+id/btnStuLate"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"
+	        android:gravity="center"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:text="未到" />
+	
+	    <Button
+	        android:id="@+id/btnStuCome"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"
+	        android:gravity="center"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:text="已到" />
+       
+	</RelativeLayout>
+</TableLayout>

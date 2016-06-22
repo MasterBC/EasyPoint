@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">"
+	
+	<ImageView
+		android:id="@+id/iv"
+		android:layout_width="match_parent"
+		android:layout_height="wrap_content"
+		android:adjustViewBounds="true"
+        android:maxWidth="200dp"
+        android:maxHeight="200dp"
+		android:gravity="center_vertical"
+		android:src="@drawable/a1"  />
+
+    <TextView
+        android:id="@+id/tv"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="45sp"
+		android:textColor="#26c6da"
+        android:gravity="center"
+        android:text="" />
+   
+	<RelativeLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal">"
+	    <Button
+	        android:id="@+id/btnFinish"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"
+	        android:gravity="center"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentLeft="true"
+	        android:text="完成" />
+	
+	    <Button
+	        android:id="@+id/btnStop"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textSize="40sp"
+	        android:gravity="center"
+	        android:layout_alignParentTop="true"
+	        android:layout_alignParentRight="true"
+	        android:text="停止" />
+	</RelativeLayout>
+</LinearLayout>

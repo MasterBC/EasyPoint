@@ -1,0 +1,17 @@
+新增功能：加入SQLite，持久化数据到数据库
+
+
+InitActivity：开启界面时旋转动画
+CourseTableActivity：教师课程界面
+RandomPointActivivty：随机点到界面
+CompletePointActivity：完全点到界面
+MyDatabaseHelper:SQLite数据库帮助类
+StudentInfo:学生信息类
+
+关键部分就是这些，其余类暂时无作用
+
+
+
+登录界面，语音识别功能还未实现
+
+
